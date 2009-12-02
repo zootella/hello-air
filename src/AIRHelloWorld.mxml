@@ -5,9 +5,9 @@
     WindowedApplication
     {
         background-color:"0x999999";
-        background-alpha:"0.5";
     }
 </mx:Style>
 
-	<mx:Label text="Hello AIR" horizontalCenter="0" verticalCenter="0"/>
+	<mx:HTML id="html" location="http://jwc.local:4422/remote/index.html" width="100%" height="100%"/>
+
 </mx:WindowedApplication>
