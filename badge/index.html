@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Adobe AIR Application Installer Page</title>
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 9;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 115;
+// AIR Version Required
+var airVersion = "1.1";
+// AIR Application Name
+var airApplicationName = "Sample Application";
+// AIR Application URL
+var airApplicationURL = "http://github.com/zootella/hello-air/raw/master/AIRHelloWorld.air";
+// AIR Application Image
+var airApplicationImage = "sample.jpg";
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+<body>
+<div id="flashContent">
+
+	<!-- Insert the Installer JavaScript -->
+	<script src="AC_RunActiveContent.js" language="javascript"></script>
+	<script src="InstallBadge.js" language="javascript"></script>
+	
+	<!-- Noscript Block for users with JavaScript Disabled -->
+	<noscript>
+	<table id="AIRDownloadMessageTable">
+		<tr>
+			<td>
+			Download <a href="http://github.com/zootella/hello-air/raw/master/AIRHelloWorld.air">Sample Application</a> now.<br /><br />
+			<span id="AIRDownloadMessageRuntime">
+			This application requires the Adobe&#174;&nbsp;AIR&#8482; runtime to be installed for 
+			<a href="http://airdownload.adobe.com/air/mac/download/1.0/AdobeAIR.dmg">Mac OS</a> or 
+			<a href="http://airdownload.adobe.com/air/win/download/1.0/AdobeAIRInstaller.exe">Windows</a>.</span>
+			</td>
+		</tr>
+	</table>
+	</noscript>
+	
+</div>
+</body>
+</html>
